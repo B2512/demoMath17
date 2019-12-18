@@ -9,7 +9,7 @@ public class Main {
     }
     public static void main(String[] args) {
         // write your code here
-        var pic = str(new int[]{2,4,5,1},new int[]{1,2});
+        int[] pic = str(new int[]{2,4,5,1},new int[]{1,2});
         for (int i=0;i<pic.length;i++){
             System.out.println(pic[i]);
         }
